@@ -1,0 +1,1263 @@
+@font-face {
+    font-family: "seven";
+    src: url("./font/seven.ttf")
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "ten";
+    src: url("./font/ten.ttf")
+}
+
+body {
+    font-family: "seven";
+    background-color: #0f0f12;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    display: flex;
+    background-color: #1a1a20a5;
+    border-radius: 7px;
+    font-size: .9rem;
+    max-width: 580px;
+    top: 20px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    padding: 12px 12px;
+    transform: translate(-50%);
+}
+
+.nav-link {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 7px 12px;
+    color: white;
+    text-transform: uppercase;
+    transition: all .35s ease;
+}
+
+.how:hover {
+    color: #007F7F;
+}
+
+.action {
+    background-color: #007F7F;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.icon-list-img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+}
+
+.icon-list-img1{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 1.5px;
+}
+
+.icon-list-img2{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+/*container*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.homka73{
+    height: 1000px;
+    width: 1000px;
+}
+
+.navigation {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    top: 70px;
+    position: relative;
+    left: -45px;
+}
+
+.sidebar {
+    display: flex;
+    position: fixed;
+    left: -40px;
+}
+
+.side-nav{
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    transition: all .35s ease;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+
+.side-nav:hover{
+    color: #007F7F;
+    background-color: #ffffff0d;
+    padding: 5px 0px;
+    padding-right: 15px;
+    border-radius: 3px;
+}
+
+.side-nav2{
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    transition: all .35s ease;
+    line-height: 25px;
+}
+
+.side-nav2:hover{
+    color: #007F7F;
+}
+
+.but1{
+    background-color: #1a1a20a5;
+    border: none;
+    color: white;
+}
+
+.mod{
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    transition:all .35s ease ;
+    position: relative;
+    left: 10px;
+}
+.mod-links{
+    position: relative;
+    left: 0;
+}
+
+.hidden {
+    display: none;
+}
+.visible {
+    display: initial;
+}
+
+.side-nav2{
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    transition: all .35s ease;
+    padding: 5px 7px;
+    border-radius: 3px;
+    padding-right: 40px;
+}
+.van::after{
+
+}
+
+.sidebar2{
+    position: fixed;
+    top: 0;
+    padding: 70px 0 ;
+    right: 0;
+    z-index: 2;
+    background: #0f0f12;
+    height: 100%;
+    line-height: 29px;
+}
+
+.mod:hover{
+    background-color: #ffffff0d;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+.content-text{
+    padding-left: 20px;
+}
+
+.cont{
+    display: flex;
+    padding-top: 40px;
+    width: 100%;
+    margin-right: 250px;
+    height: 200%;
+    left: 180px;
+    position: absolute;
+    justify-content: flex-start;
+    background-color: #1a1a20;
+}
+
+.uni{
+    display: flex;
+    position: relative;
+    color: white;
+    top: 50px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.hh1{
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+   
+    max-width: 700px;
+}
+
+.vanila-text{
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 380px;
+
+    width: 700px;
+}
+
+.vanila{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    font-family: monospace;
+    top: 400px;
+}
+
+.grief{
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    position: relative;
+    top: 400px;
+}
+
+.grief-text{
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 380px;
+    
+    max-width: 700px;
+}
+
+.donate{
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    position: relative;
+    top: 400px;
+}
+
+.donate-text{
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 390px;
+    
+    max-width: 700px;
+}
+
+.start{
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    position: absolute;
+    top: 830px;
+}
+
+.start-text{
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 870px;
+    max-width: 700px;
+}
+
+.content-tree{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    position: absolute;
+    width: 100vh;
+    height: 100%;
+    left: 300px;
+    display: flex;
+}
+
+.title-tree{
+    display: flex;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.tree{
+    display: flex;
+    width: 600px;
+    height: 350px;
+    position: relative;
+    justify-content: center;
+    left: 50px;
+    top: 190px;
+}
+
+.cont-tree{
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.cont p {
+    font-size: 18px;
+}
+
+.light-title{
+    color: white;
+    display: flex;
+    position: absolute; 
+    left: 30px;
+    top: 50px;
+}
+
+.light-content{
+    display: flex;
+    position: relative;
+    width: 900px;
+    height: 100rem;
+    position: relative;
+    left: 300px;
+}
+
+.light-img{
+    position: relative;
+    top: 150px;
+    left: 25px;
+    height: 350px;
+    width: 650px;
+}
+
+.light-text{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 500px;
+    left: 25px;
+    max-width: 660px;
+    line-height: 30px;
+}
+
+.cont-mod{
+    width: 800px;
+    display: flex;
+    height: 20rem;
+    position: relative;
+    position: absolute;
+    top: 200px;
+}
+
+.img-mod{
+    width: 650px;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 0;
+
+}
+
+.title-mod{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 25px;
+}
+
+.text-mod{
+    color: white;
+    position: relative;
+    top: 470px;
+    font-size: 15px;
+    max-width: 670px;
+    line-height: 25px;
+}
+
+.img-mod2{
+    position: absolute;
+    width: 650px;
+    height: 350px;
+    top: 460px;
+}
+
+.text-mod2{
+    color: white;
+    position: relative;
+    top: 970px;
+    font-size: 15px;
+    max-width: 670px;
+    line-height: 25px;
+}
+
+.container-text{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    left: 300px;
+    top: 200px;
+    width: 550px;
+    line-height: 20px;
+    letter-spacing: 4px;
+
+}
+
+.conta-mod{
+    width: 800px;
+    display: flex;
+    height: 20rem;
+    position: relative;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+.container-mod{
+    background-color: red;
+    width: 600px;`
+    height: 100vh;
+    position: relative;
+    left: 300px;
+}
+
+.menu-mod{ 
+    top: 20px;
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+    position: relative;
+}
+
+.link-mod-home{ 
+    width: 20x;
+    height: 20px;
+
+}
+
+
+/*navigation menu for page modification*/
+
+.container-for-mod{
+    position:relative;
+    left: 340px;
+    top: 25px;
+    display:flex;
+    flex-direction:row;
+    justify-items: center;
+}
+
+.home-icon-for-sidebar-mod{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display:flex;
+    top: 20px;
+
+}
+
+.sumbol-for-sidebar-mod{
+    color: darkgray;
+    font-size:15px;
+    display:flex;
+    position:relative;
+    top: -20px;
+    left: 15px;
+}
+
+.text-navigation-for-mod{
+    color: whitesmoke;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    left: 25px;
+
+}
+
+/*button-for-mod-fotter*/
+
+.fotter-button-for-mod{
+    color: white;
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    position: absolute;
+    top: 550px;
+    left: 300px;
+}
+
+.button-footer-for-mod{
+    position:relative;
+    left: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-items:center;
+    width: 300px;
+    height: 50px;
+    color: #007F7F;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin: 5px;
+    transition: all .55s ease;
+}
+
+.button-footer-for-mod:hover{
+    text-decoration: underline;
+}
+
+.icon-for-mod-stikel{
+    margin: 0 5px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 2px;
+}
+
+.button-footer-for-mod-21{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    height: 50px;
+    transition: all .55s ease;
+}
+
+.button-footer-for-mod{
+    position: relative;
+    top: -5px;
+}
+
+
+.button-footer-for-mod-21::after{
+    content: "<< Правила сервера";
+    width: 300px;
+    position: absolute;
+    display: flex; 
+    top: 20px;
+    color: #007F7F;
+    left: 35px;
+}
+
+.button-footer-for-mod-21:hover{
+    border-color: #007F7F;
+}
+
+.button-footer-for-mod-22{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    height: 50px;
+    transition: all .55s ease;
+    margin-bottom: 150px;
+}
+
+.button-footer-for-mod-22::after{
+    content: "Новая физика >>";
+    width: 300px;
+    position: absolute;
+    display: flex; 
+    top: 20px;
+    color: #007F7F;
+    left: 100px;
+}
+
+.button-footer-for-mod-22:hover{
+    border-color: #007F7F;
+}
+
+/*navigation for page tree*/
+
+.container-sidebar3-for-page-tree{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.homer-icon-sidebar3{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 350px;
+    top: 40px;
+}
+
+.sumbo-for-page-tree{
+    display: flex;
+    color: darkgray;
+    position: relative;
+    left: 380px;
+    top: 14px;
+}
+
+.text-for-page-tree{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    position: relative;
+    left: 390px;
+    top: 21px;
+}
+
+.sumbol-for-page-tree-2{
+    color: darkgray;
+    position: relative;
+    left: 400px;
+    top: 15px;
+    display:flex;
+}
+
+.text-for-page-tree-2{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    left: 410px;
+    top: 21px;
+}
+
+/*Button for page tree */
+
+.buuon-for-page-tree-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    left: 45px;
+    top: -25px;
+    padding-bottom: 100px;
+
+}
+
+.button-for-page-tree-1{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin-bottom: 250px;
+}
+
+.button-for-page-tree-2{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin-bottom: 250px;
+}
+
+.button-for-page-tree-1::after{
+    content: "<<Модификации";
+    color: #007F7F;
+    position: relative;
+    top: -10px;
+}
+
+.button-for-page-tree-2::after{
+    content: "Невидимые рамки >>";
+    position: relative;
+    top: -10px;
+    left: 20px;
+    color: #007f7f;
+}
+
+
+/*button footer for page ramka*/
+
+.button-for-page-ramka-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    left: -470px;
+    top: 700px;
+    padding-bottom: 400px;
+
+}
+
+.button-for-page-ramka-1{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin-bottom: 250px;
+    margin: 0 10px;
+}
+
+.button-for-page-ramka-2{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin-bottom: 250px;
+    margin: 0 10px;
+
+}
+
+.button-for-page-ramka-1::after{
+    content: "<<Изменения физики";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+}
+
+.button-for-page-ramka-2::after{
+    content: "Крафт мешков>>";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+    left: 65px;
+}
+
+/*navigation for page torba*/
+
+.container-for-torba{
+    position: relative;
+    left: 400px;
+    top: -50px;
+    display: inline-flex;
+}
+
+.text-navigation-for-torba{
+    color: whitesmoke;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    left: 45px;
+}
+
+.sumbol-for-sidebar-torba{
+    color: darkgray;
+    font-size:15px;
+    display:flex;
+    position:relative;
+    top: -20px;
+    left: 35px;
+}
+
+.button-for-page-torba-1{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin-bottom: 250px;
+    margin: 0 10px;
+}
+
+.button-for-page-torba-2{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin-bottom: 250px;
+    margin: 0 10px;
+}
+
+.button-for-page-torba-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    left: -410px;
+    top: 500px;
+    padding-bottom: 400px;
+
+}
+
+.button-for-page-torba-1::after{
+    content: "<<Невидимые рамки";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+}
+
+.button-for-page-torba-2::after{
+    content: "Цветние названия>>";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+    left: 15px;
+}
+
+/*page vopros-otbet*/
+
+.contaner-vopros{
+    position: absolute;
+    left: 300px;
+    top: 130px;
+    width:700px;
+}
+
+.title-vopros{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    margin-bottom: 80px;
+}
+
+.contaner-vopros>h2{
+    color: white;
+    font-size: 20px;
+}
+
+.contaner-vopros>p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.vopros{
+    color: darkgray;
+    font-size: 12px;
+    transition: all .30s ease;
+}
+
+.navigation-for-page-vopros{
+    position: fixed;
+    right: 10px;
+}
+
+.navigation-for-page-vopros>li{
+    margin-bottom: 10px;
+}
+
+.vopros:hover{
+    color: #007f7f;
+}
+
+.container-sidebar3-for-page-vopros{
+    display: inline-flex;
+    position: relative;
+    top: -40px;
+}
+
+.sumbol-for-page-vopros-1{
+    color: darkgray;
+    font-size:15px;
+    display:flex;
+    position:relative;
+    left: 380px;
+}
+
+.text-for-page-vopros-1{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    position: relative;
+    left: 390px;
+    top: 20px;
+}
+
+.button-for-page-vopros-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    top: 2900px;
+    left: -460px;
+    padding-bottom: 400px;
+}
+
+.button-for-page-vopros-1{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin: 0 10px;
+}
+
+.button-for-page-vopros-2{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin: 0 10px;
+}
+
+.button-for-page-vopros-1::after{
+    content: "<<Спонсорство";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+}
+
+.button-for-page-vopros-2::after{
+    content: "Правила сервера>>";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+    left: 27px;
+}
+
+/*content-for-page-adminis*/
+
+.content-for-page-adminis>h2{
+    color: white;
+    font-size: 20px;
+}
+
+.content-for-page-adminis>p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.content-for-page-adminis{
+    position: relative;
+    top: 100px;
+    left: -300px;
+    width: 700px;
+}
+
+.title-for-page-adminins-1{
+    color: white;
+    font-size: 25px;
+}
+
+.navigation-for-page-adminis{
+    position: fixed;
+    right: 15px;
+    top: 130px;
+}
+
+.adminins-link{
+    color: darkgray;
+    font-size: 12px;
+    margin-bottom: 10px;
+    transition: all .35s ease;
+}
+
+.adminins-link:hover{
+    color: #007f7f;
+}
+
+.conteiner-for-page-adminis-button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    left: 315px;
+    top: 2000px;
+    padding-bottom: 400px;
+}
+
+.button-footer-for-adminis-1{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin: 0 10px;
+}
+
+.button-footer-for-adminis-1::after{
+    content:"<<Как начать играть";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+}
+
+.button-footer-for-adminis-2{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin: 0 10px;
+}
+
+.button-footer-for-adminis-2:after{
+    content: "Президенство>>";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+    left: 53px;
+}
+
+.button-for-page-documen-start-game{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #007F7F;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 10px 100px;
+    font-weight: 100;
+    height: 40px;
+    letter-spacing: 5px;
+    align-content: center;
+    position: relative;
+    top: 430px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    left: 200px;
+    align-items: center;
+}
+
+/*content for page president*/
+
+.container-sidebar3-for-page-president{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: -50px;
+}
+
+.conateiner-for-page-president{
+    position: absolute;
+    left: 300px;
+    top: 100px
+}
+
+.title-for-page-president-1{
+    color: white;
+    font-size: 25px;
+    top: 70px
+}
+
+.text-for-page-president-1{
+    color: white;
+    font-size: 15px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.title-for-page-president-2{
+    color: white;
+    font-size: 20px;  
+    width: 700px;
+}
+
+.text-for-page-president-2{
+    color: white;
+    font-size: 15px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.buuon-for-page-president-container{
+    position: absolute;
+    top: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    left: 280px;
+    padding-bottom: 400px;
+}
+
+.button-for-page-president-1{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin: 0 10px;
+}
+
+.button-for-page-president-1::after{
+    content:"<<Администрация";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+}
+
+.button-for-page-president-2{
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 5px;
+    border: 1px solid #606770;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    transition: all .55s ease;
+    margin: 0 10px;
+}
+
+.button-for-page-president-2:after{
+    content: "Спонсорство>>";
+    color: #007f7f;
+    top: -10px;
+    position: relative;
+    left: 70px;
+}
+
+/*content for page sponsor*/
+
+.conteiner-for-page-sponsor{
+    position: absolute;
+    background-color: red;
+    left: 350px;
+    top: 40px
+}
+
+.global-title-for-page-sponsor{
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+
+
+.text-for-page-sponsor{
+    color: white;
+    font-size: 15px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.subtitle-for-sponsor{
+    font-size: 20px;
+    color: white;
+}

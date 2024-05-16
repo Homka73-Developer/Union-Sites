@@ -1,0 +1,460 @@
+@font-face{
+    font-family: "seven";
+    src: url("./font/seven.ttf")
+}
+
+@font-face{
+    font-family: "ten";
+    src: url("./font/ten.ttf")
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: "seven";
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+/*Шапка*/
+.header {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    font-family: "ten";
+    width: 100%;
+}
+
+.header::after {
+    content: " ";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    opacity: .85;
+}
+
+.bgr{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*навігація*/
+.nav {
+    display: flex;
+    background-color: #1a1a20a5;
+    border-radius: 7px;
+    font-size: .9rem;
+    max-width: 570px;
+    top: 20px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    padding: 12px 12px;
+    transform: translate(-50%);
+}
+
+.nav-link {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 7px 12px;
+    color: white;
+    text-transform: uppercase;
+    transition: all .35s ease;
+}
+
+.how:hover {
+    color: #007F7F;
+}
+
+.action {
+    background-color: #007F7F;
+    border-radius: 4px;
+    color: #fff;
+}
+/*блоки після картинки*/
+.title{
+    display: flex;
+    max-width: 700px;
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    top: 100px;
+    height: 100px;
+    padding: 150px;
+    color: white;
+    z-index: 1;
+    line-height: 2;
+    letter-spacing: 3px;
+
+}
+
+.title-logo{
+    position: relative;
+    z-index: 1;
+    height: 220px;
+    top: 100px;
+}
+
+/*кнопки*/
+.button{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 280px;
+    margin-top: 100px;
+}
+
+.butom1{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #007F7F;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 10px 100px;
+    font-weight: 100;
+    height: 40px;
+    letter-spacing: 5px;
+    align-content: center;
+
+}
+
+/*блоки*/
+
+.main{
+    display: flex;
+    background-color: #0f0f12;
+    width: 100%;
+    height: 1100px;
+    justify-content: center;
+}
+
+
+
+.inner-main{
+    color: black;
+}
+
+.inner{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.inner-main{
+    font-size: 17px;
+    font-weight: 100;
+    font-family: "ten";
+    display: flex;
+    color: white;
+    position: absolute;
+
+}
+
+.boxing{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    top: 100px;
+    height: 100px;
+}
+
+.box-par1{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 350px;
+    top: 120px;
+    padding: 0 20pp;
+    justify-content: center;
+
+}
+
+.box1-title{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-family: "ten";
+}
+
+.box1{
+    display: block;
+    background-color: #1a1a20;
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.box1-img{
+    height: 158px;
+    position: relative;
+    padding: 0 50px;
+}
+
+.box2-title{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-family: "ten";
+}
+
+.box2{
+    display: block;
+    background-color: #1a1a20;
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    font-size: 10px;
+
+}
+
+
+.box2-img{
+    height: 158px;
+    position: relative;
+    padding: 0 40px
+}
+
+.box3-img{
+    height: 158px;
+    position: relative;
+    padding: 0 50px;
+}
+
+.box4-img{
+    height: 158px;
+    padding: 0 50px;
+    position: relative;
+}
+
+.box-par2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    top: 474px;
+    height: 350px;
+    z-index: 1;
+    padding: 0 20px;
+    margin: 0;
+
+}
+
+.box3{
+    display: block;
+    background-color: #1a1a20;
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    z-index: 1;
+    color: white;
+    font-size: 10px;
+    position: relative;
+}
+
+.box3-title{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-family: "ten";
+}
+
+.box4-title{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-family: "ten";
+}
+
+.box4{
+    display: block;
+    background-color: #1a1a20;
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    z-index: 1;
+    color: white;
+    font-size: 10px;
+    position: relative;
+}
+
+.bat{
+    display: flex;
+    position: absolute;
+}
+
+.link-bat{
+    color: white;
+    display: block;
+    position: relative;
+    background-color: #007F7F;
+    font-family: "ten";
+    width: 230px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    align-content: center;
+    text-align: center;
+    top: 850px;
+    transition: all .35s ease;
+
+}
+
+.link-bat:hover{
+    background-color: #007F7F;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: absolute;
+    background-color: #1a1a20;
+    width: 100%;
+    height: 250px;
+
+}
+
+.fot{
+    display: flex;
+    background-color: #1a1a20;
+    position: relative;
+    justify-content: center;
+}
+
+.fot-nav{
+    display: flex;
+    position: relative;
+    height: 30px;
+    margin: 10px;
+    padding: 0 30px;
+}
+
+.footer-logo{
+    width: 120px;
+    height: 120px;
+    position: relative;
+
+    padding-right: 0px;
+    padding-top: 90px;
+}
+
+.fot-nav{
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: -107px;
+}
+
+.fot-link{
+    color: #626262;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.fut{
+    position: relative;
+    top: 70px;
+    height: 100px;
+}
+
+
+.fut-copi{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    color: #626262;
+    padding: 10px;
+    font-size: 10px;
+    height: 20px;
+    width: 250px;
+}
+
+.fut-homka73{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    color: #626262;
+    padding: 10px;
+    font-size: 10px;
+    height: 20px;
+    width: 220px;
+}
+
+@media screen and (max-width: 1000px){
+    .boxing{
+        display: grid;
+        justify-items: center;
+    }
+
+    .box-par1{
+        display: grid;
+    }
+
+    .box-par2{
+        display: grid;
+    }
+
+    .main{
+        height: 1700px;
+    }
+
+    .box3{
+        top: 708px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
